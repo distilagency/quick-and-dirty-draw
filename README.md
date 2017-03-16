@@ -1,5 +1,7 @@
 # Quick and Dirty Draw Menu for React
 
+![Quick and Dirty Draw](https://thumbs.gfycat.com/FortunateSimpleBlueandgoldmackaw-size_restricted.gif)
+
 ## SASS Mixin
 
 The draw mixin :cocktail:
