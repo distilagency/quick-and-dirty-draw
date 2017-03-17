@@ -1,6 +1,6 @@
 # Quick and Dirty Draw Menu for React
 
-![Quick and Dirty Draw](https://thumbs.gfycat.com/FortunateSimpleBlueandgoldmackaw-size_restricted.gif)
+![Quick and Dirty Draw](https://thumbs.gfycat.com/AmazingUnlawfulAsiantrumpetfish-size_restricted.gif)
 
 ## SASS Mixin
 
