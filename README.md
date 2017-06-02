@@ -22,7 +22,7 @@ The draw mixin :cocktail:
     transition: opacity 0.3s 0.3s;
     width: $draw_width;
     height: $draw_border_thickness;
-    background: $textcolor;
+    background: $background;
   }
   &:before, &:after{
     content: '';
