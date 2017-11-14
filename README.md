@@ -14,7 +14,7 @@ The draw mixin :cocktail:
   .draw{
     display: block;
     position: absolute;
-    top: 0;
+    top: $draw_offset;
     right: 0;
     font-size: 0;
     text-decoration: none;
@@ -27,7 +27,7 @@ The draw mixin :cocktail:
   &:before, &:after{
     content: '';
     position: absolute;
-    top: -$draw_offset;
+    top: 0;
     right: 0;
     height: $draw_border_thickness;
     width: $draw_width;
@@ -35,24 +35,26 @@ The draw mixin :cocktail:
     transition: top 0.3s 0s, transform 0.3s 0s;
   }
   &:after{
-    top: $draw_offset;
+    top: $draw_offset * 2;
   }
 }
 
-@mixin draw-open($background: #000) {
+@mixin draw-open($background: #000, $draw_offset: 6px) {
   .draw{
     background: $background;
     opacity: 0;
     transition: opacity 0.3s;
   }
   &:before{
+    background: $background;
     transform: rotate(45deg);
-    top: 0px;
+    top: $draw_offset;
     transition: top 0.3s 0.3s, transform 0.3s 0.3s;
   }
   &:after{
+    background: $background;
     transform: rotate(-45deg);
-    top: 0px;
+    top: $draw_offset;
     transition: top 0.3s 0.3s, transform 0.3s 0.3s;
   }
 }
