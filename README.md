@@ -102,7 +102,7 @@ export default class Navigation extends Component {
     const { navOpen } = this.state;
     return (
       <nav className={navOpen ? "nav_banner open" : "nav_banner"} role="navigation">
-        <div to="#" onClick={(event) => this.toggleNav(event)} className="toggle-nav">
+        <div onClick={(event) => this.toggleNav(event)} className="toggle-nav">
           <span className="draw">{navOpen ? 'Close' : 'Open'}</span>
         </div>
       </nav>
